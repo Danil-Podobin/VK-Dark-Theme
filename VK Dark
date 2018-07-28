@@ -961,3 +961,10 @@ input[readonly*='true']{
     border-bottom: 1px solid #2a2a2c;
     padding: 15px 20px;
 }
+.bt_comment_form_unavailable {
+    padding: 35px 75px;
+    text-align: center;
+    background: #212122;
+    color: #656565;
+    line-height: 160%;
+}
