@@ -1,4 +1,5 @@
-/*
+@-moz-document domain("vk.com") {
+    /*
 =================================================*/
 
 /*  |  Green  | */
@@ -11,7 +12,6 @@
 
    /*sidebar_fixed*/
    /*no_input_minimize*/
-   /*[[leave_redesign]]*/
    
       *::-webkit-scrollbar {
     width: 15px !important;
@@ -933,3 +933,31 @@ input[readonly*='true']{
         text-decoration: none!important;
         margin: 0 30px 30px 0;
     }
+.bt_report_footer {
+    border-top: 1px solid #2a2a2c;
+    padding: 11px 20px;
+    background: #2a2a2c;
+    white-space: nowrap;
+}
+    .bt_report_cmt_author_a {
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    color: #63b97f;
+}
+    .bt_report_one_author {
+    border-bottom: 1px solid #2a2a2c;
+    padding-bottom: 15px;
+}
+    .bt_report_one_info {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #2a2a2c;
+}
+    .bt_report_one_comments {
+    border-bottom: 1px solid #2a2a2c;
+    padding: 15px 20px;
+}
