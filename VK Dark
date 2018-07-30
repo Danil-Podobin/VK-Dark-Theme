@@ -968,3 +968,12 @@ input[readonly*='true']{
     color: #656565;
     line-height: 160%;
 }
+     #apps_layer .apps_footer_left_inner .app_actions_menu_wrap {
+    padding-left: 7px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    color: #63b97f;
+    line-height: 53px;
+    margin-top: -14px;
+        }
