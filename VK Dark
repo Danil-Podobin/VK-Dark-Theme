@@ -1009,5 +1009,25 @@ div.profile_online {
     color: #35ff77;
     text-align: center;
 }
-
+.print_header {
+    padding: 29px 30px 26px;
+    line-height: 160%;
+    border-bottom: 1px solid #2a2a2c;
+}
+.print_disabling_overlay {
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background: #2a2a2c;
+}
+table.print_table.visible td.print_preview_td {
+    border-color: #63b97f;
+}
+.print_links .print_download_link {
+    margin: 0 2px;
+    color: #63b97f;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
