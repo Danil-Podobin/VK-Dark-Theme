@@ -1030,4 +1030,13 @@ table.print_table.visible td.print_preview_td {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.bt_tag_label {
+    border-radius: 3px;
+    padding: 5px 9px 4px;
+    background: #2a2a2c;
+    color: #ad3c2f;
+    display: inline-block;
+    font-size: 12.5px;
+    line-height: 12.5px;
+    vertical-align: top;
+}
