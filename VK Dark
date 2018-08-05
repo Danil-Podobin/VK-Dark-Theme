@@ -1006,7 +1006,7 @@ div.profile_online {
     margin-top: 5px;
     padding-left: 10px;
     line-height: 18px;
-    color: #35ff77;
+    color: #32bc5a;
     text-align: center;
 }
 .print_header {
