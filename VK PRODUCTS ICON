@@ -1,0 +1,28 @@
+/*VK PRODUCTS ICON*/
+.blog_product_icon.blog_product_icon_iphone {
+    background-image: url(https://i.imgur.com/KoNgu7r.png);
+}
+.blog_product_icon.blog_product_icon_android {
+    background-image: url(https://i.imgur.com/fIVsjYv.png);
+}
+.blog_product_icon.blog_product_icon_mvk {
+    background-image: url(https://i.imgur.com/0X4faWC.png);
+}
+.blog_product_icon.blog_product_icon_vklive {
+    background-image: url(https://i.imgur.com/D3pPcDF.png);
+}
+.blog_product_icon.blog_product_icon_vkadmin {
+    background-image: url(https://i.imgur.com/CZSuJAp.png);
+}
+.blog_product_icon.blog_product_icon_clever {
+    background-image: url(https://i.imgur.com/pBZUzAX.png);
+}
+.blog_product_icon.blog_product_icon_messenger {
+    background-image: url(https://i.imgur.com/gaM5Kb4.png);
+}
+.blog_product_icon.blog_product_icon_dev {
+    background-image: url(https://i.imgur.com/79peB23.png);
+}
+.blog_product_icon.blog_product_icon_ads {
+    background-image: url(https://i.imgur.com/CKB2DfL.png);
+}
