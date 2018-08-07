@@ -1040,3 +1040,95 @@ table.print_table.visible td.print_preview_td {
     line-height: 12.5px;
     vertical-align: top;
 }
+.bt_member_activity_item.empty {
+    background: #2a2a2c;
+}
+.bt_member_activity_item {
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    display: inline-block;
+    background: #4b8b60;
+    cursor: pointer;
+}
+.bt_member_activity_lines.selection .bt_member_activity_item.selected.empty {
+    background-color: #63b97f;
+}
+.bt_reporter_name .mem_link {
+    color: #63b97f;
+}
+.bt_product_row {
+    border-bottom: 1px solid #2a2a2c;
+    padding: 20px 0;
+}
+.bt_reporter_row {
+    border-top: 1px solid #2a2a2c;
+    padding: 10px;
+}
+.bt_reporter_product {
+    border-top: 1px solid #2a2a2c;
+    padding: 10px 0;
+}
+.bt_member_activity_reports .delimiter {
+    width: 100%;
+    height: 8px;
+    border-bottom: solid 1px #2a2a2c;
+    float: left;
+    margin-bottom: -100%;
+}
+.bt_member_activity_reports_title {
+    font-size: 14px;
+    color: #4b8b60;
+    display: inline-block;
+    background: #2a2a2c;
+    padding: 0 7px;
+}
+.bt_prod_version {
+    padding: 10px 5px;
+    border-bottom: 1px solid #2a2a2c;
+    line-height: 19px;
+    position: relative;
+    word-wrap: break-word;
+}
+.flat_button.ui_load_more_btn {
+    display: block;
+    padding: 13px 0 14px;
+    cursor: pointer;
+    color: #63b97f;
+    background-color: #2a2a2c;
+    border-top: 1px solid #2a2a2c;
+    border-radius: 0 0 4px 4px;
+    -o-transition: background-color 40ms linear;
+    transition: background-color 40ms linear;
+}
+.bt_comment_form_actions {
+    border-top: 1px solid #2a2a2c;
+    padding: 0 20px 15px;
+    text-align: right;
+}
+.bt_reporter_row:hover {
+    background: #2a2a2c;
+}
+.bt_report_cmt_a:hover {
+    -o-transition: background-color 300ms in-out;
+    transition: background-color 300ms in-out;
+    background: #2a2a2c;
+    color: #000;
+    text-decoration: none;
+}
+.bt_report_one_comments .bt_report_cmt {
+    border-bottom: 1px solid #2a2a2c;
+}
+.bt_report_cmt_meta_content {
+    border-radius: 2px;
+    padding: 4px 10px;
+    box-shadow: 0 1px 0 0 #656565, 0 0 0 1px #656565;
+    background: #2a2a2c;
+    color: #4b8b60;
+    display: inline-block;
+    font-size: 12px;
+    max-width: 460px;
+}
+.bt_report_tags_clickable .bt_tag_label:hover {
+    background: #656565;
+}
