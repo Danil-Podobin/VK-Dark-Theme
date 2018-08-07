@@ -1132,3 +1132,7 @@ table.print_table.visible td.print_preview_td {
 .bt_report_tags_clickable .bt_tag_label:hover {
     background: #656565;
 }
+.bt_hform_submit_block {
+    border-top: 1px solid #2a2a2c;
+    padding-top: 20px;
+}
