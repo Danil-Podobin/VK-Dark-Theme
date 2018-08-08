@@ -1136,3 +1136,16 @@ table.print_table.visible td.print_preview_td {
     border-top: 1px solid #2a2a2c;
     padding-top: 20px;
 }
+.bt_report_cmt_a__go {
+    background: url(/images/mobile/arrow_right.png) no-repeat 50%;
+    -o-transition: opacity 300ms in-out;
+    transition: opacity 300ms in-out;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: #19191a;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    width: 30px;
+}
