@@ -1170,3 +1170,18 @@ table.print_table.visible td.print_preview_td {
 .ui_tab_default .ui_tab_plain {
     color: #63b97f;
 }
+.blog_about_tabs_line2 {
+    left: initial;
+    right: -30px;
+    background: -o-linear-gradient(left, #eef0f3, rgba(238,240,243,0));
+    background: linear-gradient(90deg, #2a2a2c, rgba(238,240,243,0));
+}
+.blog_about_tabs_line, .blog_about_tabs_line2 {
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background: -o-linear-gradient(right, #eef0f3, rgba(238,240,243,0));
+    background: linear-gradient(270deg, #2a2a2c, rgba(238,240,243,0));
+    bottom: -1px;
+    left: -30px;
+}
