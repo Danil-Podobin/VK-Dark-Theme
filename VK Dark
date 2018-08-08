@@ -1185,3 +1185,26 @@ table.print_table.visible td.print_preview_td {
     bottom: -1px;
     left: -30px;
 }
+.graph_menu_item.graph_menu_item_sel, .graph_menu_item.graph_menu_item_sel:hover {
+    color: rgb(42, 42, 44);
+    background: rgb(99, 185, 127);
+}
+.graph_menu_item {
+    cursor: pointer;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    float: left;
+    margin-left: 10px;
+    font-size: 11px;
+    line-height: 1.154;
+    max-width: 230px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(99, 185, 127);
+    border-radius: 2px;
+    padding: 3px 8px 4px;
+    overflow: hidden;
+    background: transparent;
+}
