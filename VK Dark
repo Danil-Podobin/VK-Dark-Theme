@@ -1208,3 +1208,38 @@ table.print_table.visible td.print_preview_td {
     overflow: hidden;
     background: transparent;
 }
+.oauth_head {
+    background-color: #2a2a2c;
+    padding: 0 25px;
+    font-size: 12.5px;
+    color: #63b97f;
+    height: 54px;
+    line-height: 52px;
+}
+.oauth_head .oauth_reg_link, .oauth_head .oauth_user_link {
+    color: #63b97f;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.MessageForward__content {
+    background: #212122;
+}
+.PopupHeader__title {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0 25px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+    color: rgb(99, 185, 127);
+}
+.app_widget_tiles_title {
+    color: #4b8b60;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
