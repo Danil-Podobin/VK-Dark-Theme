@@ -1351,44 +1351,14 @@ div {
     background-color: #2a2a2c;
     position: relative;
 }
-.slider_hint:after {
-    top: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(210,219,228,0);
-    border-top-color: #212122;
-    border-width: 5px;
-    margin-left: -5px;
-}
+
 .slider .slider_slide {
     height: 4px;
     border-radius: 2px;
     background-color: #212122;
     position: relative;
 }
-.slider_hint {
-    pointer-events: none;
-    background: #212122;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    z-index: 99999;
-    padding: 4px 6px;
-    border-radius: 2px;
-    margin-top: 4px;
-    opacity: 0;
-    -o-transition: visibility 0s 110ms, margin-top 60ms linear, opacity 110ms linear;
-    transition: visibility 0s 110ms, margin-top 60ms linear, opacity 110ms linear;
-    line-height: 1.1em;
-    white-space: nowrap;
-    color: #4d627d;
-    visibility: hidden;
-}
+
 user agent stylesheet
 div {
     display: block;
