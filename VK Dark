@@ -1243,3 +1243,102 @@ table.print_table.visible td.print_preview_td {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.apps_install_header {
+    min-height: 120px;
+    background: #19191a;
+    border-bottom: solid 1px #212122;
+    padding: 25px;
+    position: relative;
+}
+.apps_install_settings__item {
+    float: left;
+    font-size: 12.5px;
+    color: #63b97f;
+    background-color: #2a2a2c;
+    padding: 5px 12px 6px;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.apps_install_header .apps_ss_playing__list {
+    border: none;
+    background: none;
+    color: #32bc5a;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 13px;
+    outline: 0;
+    padding: 0;
+    line-height: 1;
+}
+.apps_install_header .apps_ss_friend_img {
+    width: 22px;
+    height: 22px;
+    float: right;
+    margin-right: -6px;
+    border: 2px solid #63b97f;
+    border-radius: 50%;
+}
+.ui_tabs .ui_tab_group_item {
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    color: #63b97f;
+}
+.ui_tab_group_separator {
+    border-top: 1px solid #2a2a2c;
+    margin: 4px 13px;
+    display: block;
+}
+.ui_tabs .ui_tab_group_item:hover {
+    text-decoration: none;
+    background-color: #2a2a2c;
+}
+.bt_hform_label {
+    float: left;
+    padding-top: 7px;
+    color: #63b97f;
+    line-height: 16px;
+}
+.slider .slider_slide {
+    height: 4px;
+    border-radius: 2px;
+    background-color: #222;
+    position: relative;
+}
+.slider .slider_amount, .slider .slider_back {
+    height: 100%;
+    width: 0;
+    border-radius: 2px;
+    background-color: #63b97f;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slider .slider_handler {
+    position: absolute;
+    background-color: #4b8b60;
+    opacity: 0;
+    border-radius: 50%;
+    height: 0;
+    width: 0;
+    -o-transition: top 80ms linear, width 80ms linear, height 80ms linear, margin-left 80ms linear, opacity 160ms linear;
+    transition: top 80ms linear, width 80ms linear, height 80ms linear, margin-left 80ms linear, opacity 160ms linear;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.audio_page_player2 .audio_page_player_title_song {
+    color: #63b97f;
+    margin-bottom: 1px;
+}
+.audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_back {
+    background-color: #63b97f;
+}
+.audio_pl_item2 .audio_pl__subtitle>a {
+    color: #63b97f;
+}
