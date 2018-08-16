@@ -450,3 +450,7 @@ div {
     border-bottom-style: solid;
     border-bottom-color: rgb(63, 63, 63);
 }
+.TopMenu_qrTitle_3-YPQ {
+    font-weight: 300;
+    color: #63b97f;
+}
