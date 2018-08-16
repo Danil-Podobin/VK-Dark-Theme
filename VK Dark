@@ -1406,3 +1406,16 @@ div {
     background-color: #2a2a2c;
     border-radius: 4px;
 }
+.audio_pl_snippet2 .audio_pl_snippet__more_btn {
+    box-sizing: border-box;
+    color: #4b8b60;
+    cursor: pointer;
+    display: block;
+    line-height: 40px;
+    max-width: 100%;
+    padding: 0 28px 0 43px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
