@@ -1419,3 +1419,21 @@ div {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+.audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_back {
+    background-color: #4b8b60;
+}
+.audio_page_player2 .audio_page_player_track_slider.slider.slider_size_1 .slider_slide {
+    height: 2px;
+    background-color: #2a2a2c;
+}
+.audio_page_player2 .audio_page_player_volume_slider .slider_slide {
+    background-color: #4b8b60;
+}
+.audio_pl_snippet2 .audio_pl_snippet__header {
+    border-bottom: 1px solid #2a2a2c;
+    position: relative;
+    box-sizing: border-box;
+}
+.widget_body, .widget_body .box_title_wrap.box_grey .box_title {
+    color: #828282 !important;
+}
