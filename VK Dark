@@ -1437,3 +1437,20 @@ div {
 .widget_body, .widget_body .box_title_wrap.box_grey .box_title {
     color: #828282 !important;
 }
+.widget_body #wpost_post, .widget_body .box_body, .widget_body .tt_default, .widget_body .tt_default_right {
+    background-color: #2a2a2c !important;
+    border-color: #222 !important;
+}
+.wpost_head_name .wpost_head_link {
+    max-width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #63b97f;
+}
