@@ -1299,3 +1299,12 @@ hr {
 #apps_layer .apps_footer_left_inner .post_share:hover {
     background-color: var(--color5);
 }
+.ownerButton__title {
+    color: var(--color2);
+}
+.ownerButton b {
+    color: var(--color1);
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
