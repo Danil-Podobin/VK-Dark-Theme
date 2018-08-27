@@ -1276,3 +1276,26 @@ hr {
     cursor: default;
     text-align: center;
 }
+#apps_layer .apps_footer_left_inner .app_actions_menu_wrap {
+    padding-left: 7px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    color: var(--color1);
+    line-height: 53px;
+    margin-top: -14px;
+}
+#apps_layer .apps_header {
+    background-color: var(--color5);
+    height: 55px;
+    line-height: 55px;
+    font-size: 15px;
+    border-bottom: 1px solid var(--color3);
+}
+#apps_layer .apps_header .apps_name {
+    margin-left: 25px;
+    color: var(--color1);
+}
+#apps_layer .apps_footer_left_inner .post_share:hover {
+    background-color: var(--color5);
+}
