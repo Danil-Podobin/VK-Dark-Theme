@@ -1308,3 +1308,6 @@ hr {
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: auto;
 }
+.ownerButton_music_awards .ownerButton__title, .ownerButton_wow_2018 b, .ownerButton_wow_2018 .ownerButton__title {
+    color: var(--color1);
+}
