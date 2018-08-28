@@ -1311,3 +1311,14 @@ hr {
 .ownerButton_music_awards .ownerButton__title, .ownerButton_wow_2018 b, .ownerButton_wow_2018 .ownerButton__title {
     color: var(--color1);
 }
+.market_tr_row:hover {
+    background: var(--color3);
+}
+.market_tr_row__note {
+    float: left;
+    padding-left: 10px;
+    color: var(--color1);
+    width: 340px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
