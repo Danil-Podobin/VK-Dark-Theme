@@ -1326,3 +1326,25 @@ hr {
     border-top: 1px solid var(--color3);
     transition: background-color 2s linear 0s;
 }
+.bt_generic_popup {
+    opacity: 0;
+    box-shadow: var(--color3) 0px 0px 3px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    pointer-events: none;
+    border-radius: 5px;
+    padding: 15px;
+    transition: margin 180ms ease-in-out 0s, transform 180ms ease-in-out 0s, opacity 180ms ease-in-out 0s, visibility 0ms linear 180ms, -o-transform 180ms ease-in-out 0s;
+    background: var(--color3);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: var(--color4);
+}
