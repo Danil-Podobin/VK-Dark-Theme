@@ -1348,3 +1348,26 @@ hr {
     background-clip: initial;
     background-color: var(--color4);
 }
+.bt_report_footer .reproducing.checked .flat_button {
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    background: var(--color4);
+}
+.bt_report_footer .reproducing .common_count {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 23px;
+    display: inline-block;
+    color: rgb(103, 112, 122);
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+    box-shadow: var(--color4) 0px 0px 0px 1px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    cursor: default;
+    pointer-events: none;
+    background: var(--color5);
+    border-radius: 50%;
+}
