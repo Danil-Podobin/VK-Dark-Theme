@@ -218,3 +218,30 @@ table.print_table.visible td.print_preview_td {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.Popup {
+    position: relative;
+    width: 980px;
+    margin: 20px 0;
+    padding: 54px 40px 40px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: var(--color5);
+}
+.Popup__text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 33px;
+    cursor: default;
+    color: var(--color6);
+}
+.Popup__title {
+    font-family: TT Commons;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 1;
+    margin-bottom: 10px;
+    cursor: default;
+    color: var(--color1);
+}
