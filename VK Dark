@@ -1395,3 +1395,13 @@ hr {
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
+.help_legal_information_content .wikiVkLink:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: var(--color3);
+    position: absolute;
+    width: 100%;
+    margin-top: -25px;
+    pointer-events: none;
+}
