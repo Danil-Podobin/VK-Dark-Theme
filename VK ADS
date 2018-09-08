@@ -1,0 +1,131 @@
+/*VK ADS*/
+:root {
+  --color1: #63b97f;
+  --color2: #4B8B60;
+  --color3: #2A2A2C;
+  --color4: #212122;
+  --color5: #19191A;
+  --color6: #87878e;
+  --color7: #333333;
+  --color8: #5b5b5f;
+  --color9: rgba(33,33,34,0.9);
+  --color10: rgba(92, 96, 101, 0.16);
+  --color11: rgba(29, 32, 35, 0.32);
+  --filt2:hue-rotate(270deg)brightness(1.3)saturate(1.5) !important;  
+  --filt22:hue-rotate(270deg)brightness(1.3)saturate(1.5) !important;
+  --dots: url('https://i.imgur.com/qAUbD7O.png');
+  --brigther_font_color: #b6b6bd;
+}
+.landing_ads_product_title {
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    line-height: 18px;
+    margin-top: 10px;
+    color: var(--color2);
+}
+a.landing_ads_product:hover .landing_ads_product_title {
+    color: var(--color1);
+}
+#ads_page h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color3);
+    padding-bottom: 12px;
+}
+.dd_menu_header div {
+    border: 1px solid var(--color2);
+        color: var(--color4);
+    padding: 3px 5px;
+    white-space: nowrap;
+    padding-right: 17px;
+    line-height: 1.27em;
+    background: var(--color6) url(/images/flydead.gif) no repeat right 12px;     
+}
+.dd_menu_rows a {
+    background: var(--color5);
+    display: block;
+    line-height: 1.09em;
+    padding: 4px 6px 0;
+    height: 18px;
+    white-space: nowrap;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.ui_table td.ui_table_cell_empty {
+    line-height: 170%;
+    text-align: center;
+    background-color: var(--color5);
+    color: #777;
+    padding: 20px 50px;
+}
+.ui_table th.ui_table_cell {
+    color: var(--color1);
+    font-weight: 700;
+}
+.ui_table tr.ui_table_row.empty {
+    border-bottom: 1px solid var(--color3);
+}
+.ui_table tr.ui_table_row {
+    border-left: 1px solid var(--color3);
+    border-right: 1px solid var(--color3);
+    background-color: var(--color3);
+}
+.ui_table tr.ui_table_row.header {
+    border: 1px solid var(--color3);
+    background-color: var(--color3);
+}
+.dd_menu_rows a.dd_a_hover, .dd_menu_rows a:hover {
+    background-color: var(--color3);
+    text-decoration: none;
+}
+.inlMainTable td.inlContent {
+    background: var(--color3);
+    border: 1px solid #aaa;
+    padding: 7px;
+}
+.help_table_question_sa.help_table_question_visible {
+    background: var(--color5);
+}
+.ads_edit_link_type_card {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    width: 210px;
+    box-sizing: border-box;
+    background-color: var(--color5);
+    cursor: pointer;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 20, 51, 0.12);
+    border-image: initial;
+    padding: 20px 15px;
+    transition: box-shadow 0.2s ease 0s, transform 0.2s ease 0s, -o-transform 0.2s ease 0s;
+}
+.ads_edit_link_type_card_title {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.38;
+    color: var(--color1);
+}
+.ads_edit_link_type_card.selected {
+    border-color: var(--color2);
+}
+.help_table_question .help_table_question {
+    margin-top: -1px;
+    border-top: 1px solid var(--color3);
+}
+.help_table_question__ans_text .wk_hider_box, .help_table_question__ans_text .wk_hider_box_opened {
+    border-right-color: initial;
+    border-left-color: initial;
+    border-width: 1px 0px;
+    border-style: solid none;
+    border-image: initial;
+    border-top: 1px solid var(--color3);
+    border-bottom: 1px solid var(--color3);
+    margin: -1px auto 0px;
+}
