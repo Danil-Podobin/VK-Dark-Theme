@@ -129,3 +129,115 @@ a.landing_ads_product:hover .landing_ads_product_title {
     border-bottom: 1px solid var(--color3);
     margin: -1px auto 0px;
 }
+.landing_ads_separator {
+    height: 1px;
+    width: 100%;
+    background: var(--color3);
+    margin: 50px 0px;
+}
+.landing_ads_footer {
+    width: 880px;
+    font-size: 14px;
+    margin: 50px auto 0px;
+    padding: 50px 20px;
+    border-top: 1px solid var(--color3);
+}
+.landing_ads_tabs::before {
+    left: 0px;
+    background: linear-gradient(270deg, var(--color3), var(--color3));
+}
+.landing_ads_tabs::after {
+    right: 0px;
+    visibility: visible;
+    background: linear-gradient(90deg, var(--color3), var(--color3));
+}
+.landing_ads_tabs .ui_tab.ui_tab_sel {
+    border-color: var(--color1);
+}
+.landing_ads_action_button {
+    color: var(--color3);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    user-select: none;
+    background: var(--color2);
+    border-radius: 100px;
+    padding: 10px 22px 11px;
+    text-decoration: none !important;
+}
+.landing_ads_company_page_widgets.comments .comments_title, .landing_ads_company_page_widgets.followers .followers_title, .landing_ads_company_page_widgets.messages .messages_title {
+    color: var(--color1);
+    cursor: default;
+    text-decoration: none !important;
+}
+.landing_ads_company_page_create_page_wrap {
+    margin-top: 30px;
+    background: var(--color5);
+    padding: 60px 15px 0px;
+}
+.landing_ads_targeting_vk_info .landing_ads_company_page_create_page_caption {
+    color: var(--color6);
+}
+.landing_ads_targeting_ads_example_type.selected {
+    color: var(--color1);
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    cursor: default;
+    text-decoration: none !important;
+}
+.landing_ads_question.shown .landing_ads_question_title {
+    color: var(--color2);
+}
+.landing_ads_question_title {
+    color: var(--color1);
+    padding: 14px 0px 10px;
+}
+.landing_ads_question {
+    padding-bottom: 4px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color3);
+}
+.landing_ads_special_projects_live .landing_ads_company_page_create_page_caption {
+    color: var(--color6);
+}
+.landing_ads_company_page_create_page_caption_steps {
+    color: var(--color1);
+    margin-top: 15px;
+    line-height: 28px;
+}
+.ads_case_counter_item__value {
+    font-size: 32px;
+    line-height: 1.2;
+    color: var(--color1);
+    white-space: nowrap;
+}
+.ads_case_header__title {
+    font-size: 24px;
+    line-height: 1.25;
+    color: var(--color6);
+    margin: 0px;
+}
+.ads_case_header__info {
+    padding-top: 22px;
+    padding-bottom: 31px;
+    display: flex;
+    border-bottom: 1px solid var(--color3);
+}
+.ads_case_block_tabs {
+    background-color: var(--color5);
+}
+.ads_case_text__container {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: var(--color6);
+}
+.ads_case_footer_item__title {
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: var(--color1);
+}
