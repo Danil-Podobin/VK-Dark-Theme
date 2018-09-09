@@ -343,3 +343,56 @@ body.dev
     color: var(--color1);
     background: var(--color3);
 }
+.dev_main_page {
+    background: var(--color5)!important;
+}
+.dev_main_content .dev_main_content_breaker {
+    margin: 40px 0;
+    border-bottom: 1px solid var(--color3);
+}
+.dev_main_sep {
+    height: 1px;
+    width: 100%;
+    background: var(--color3);
+    margin-top: 48px;
+}
+.dev_main_platforms .dev_main_platform .dev_main_platform_title {
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.dev_main_featured .dev_main_featured_products .dev_main_featured_product .dev_main_featured_product_title {
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.dev_main_featured .dev_main_featured_products .dev_main_featured_product:hover .dev_main_featured_product_title {
+    color: var(--color2);
+}
+.dev_main_footer .dev_main_footer_section .dev_main_footer_section_title {
+    font-weight: 500;
+    color: var(--color6);
+}
+.dev_main_content .dev_main_content_header {
+    color: var(--color6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 18px;
+    margin-top: 38px;
+    position: relative;
+}
+.dev_main_blog_post_more {
+    color: var(--color1);
+    margin-top: 0px;
+}
+.dev_main_platforms .dev_main_platform:hover .dev_main_platform_title {
+    color: var(--color2);
+}
+.dev_main_featured .dev_main_featured_banners_change_button.active_slide {
+    background: var(--color3);
+    color: var(--color1);
+}
