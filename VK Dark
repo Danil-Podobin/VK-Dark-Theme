@@ -1436,3 +1436,11 @@ hr {
     border-bottom: 1px solid var(--color3);
     padding-bottom: 9px;
 }
+.bt_member_activity_reports .hidden_reports_count {
+    color: var(--color1);
+    font-size: 14px;
+    padding: 5px 0 15px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
