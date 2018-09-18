@@ -1432,3 +1432,7 @@ hr {
     height: 54px;
     line-height: 52px;
 }
+.bt_report_small_row:not(:last-child) {
+    border-bottom: 1px solid var(--color3);
+    padding-bottom: 9px;
+}
