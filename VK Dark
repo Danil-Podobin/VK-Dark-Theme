@@ -1444,3 +1444,25 @@ hr {
     top: 0;
     width: 100%;
 }
+.bt_report_sidebar_wrap {
+    padding: 12px 15px;
+    background: var(--color4);
+    color: #5c5c5c;
+    font-size: 12.5px;
+}
+.bt_report_footer .reproducing .user_img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    -moz-force-broken-image-icon: 0;
+    background-color: #fafbfc;
+    float: left;
+    margin-right: -24px;
+    pointer-events: none;
+    box-shadow: 0 0 0 1px var(--color1);
+    position: relative;
+    z-index: 1;
+    visibility: collapse;
+    -o-transition: visibility 0ms linear 100ms, margin 100ms linear;
+    transition: visibility 0ms linear 100ms, margin 100ms linear;
+}
