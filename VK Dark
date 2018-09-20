@@ -1466,3 +1466,6 @@ hr {
     -o-transition: visibility 0ms linear 100ms, margin 100ms linear;
     transition: visibility 0ms linear 100ms, margin 100ms linear;
 }
+.apps_main .apps_install_header .apps_i_phone_button, .apps_main .apps_install_header .apps_share_button {
+    background-color: var(--color3);
+}
