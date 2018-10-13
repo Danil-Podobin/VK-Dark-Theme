@@ -737,6 +737,16 @@ input[readonly*='true']{
 	background-color:#fff;
     border-color:#d3d9de;
 }
+.market_tr_row {
+    border-bottom: 1px solid var(--color3);
+    padding: 15px 10px;
+    position: relative;
+}
+.market_tr_row__date {
+    float: left;
+    color: var(--color2);
+    width: 125px;
+}
 
 .wcomments_page  .ui_actions_menu {
 	background: #fff;
