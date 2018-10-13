@@ -1535,3 +1535,6 @@ hr {
     margin-right: 14px;
     border-right: 1px solid var(--color3);
 }
+.page_photo.page_action_menu_groups .group_notification_settings .group_notification_setting:hover {
+    background-color: var(--color3);
+}
