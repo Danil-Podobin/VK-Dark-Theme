@@ -1580,3 +1580,6 @@ hr {
     font: 13px/18px -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
     color: var(--color6);
 }
+.im-replied:hover:before {
+    background: var(--color7)
+}
