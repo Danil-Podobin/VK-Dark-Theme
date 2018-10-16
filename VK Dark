@@ -1548,3 +1548,35 @@ hr {
 .page_photo.page_action_menu_groups .group_notification_settings .group_notification_setting:hover {
     background-color: var(--color3);
 }
+.market_tr_row {
+    border-bottom: 1px solid var(--color3);
+    padding: 15px 10px;
+    position: relative;
+}
+.market_tr_row__date {
+    float: left;
+    color: var(--color2);
+    width: 125px;
+}
+.im-replied--author-link {
+    font: 700 12.5px/15px -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color2);
+}
+.im-replied:before {
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background: var(--color3);
+    border-radius: 1px;
+    content: '';
+}
+.im-replied--text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font: 13px/18px -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    color: var(--color6);
+}
