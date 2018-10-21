@@ -1583,3 +1583,82 @@ hr {
 .im-replied:hover:before {
     background: var(--color7)
 }
+.groups_create_type .groups_create_tile_title {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: var(--color1);
+}
+.groups_create_type .groups_create_tile:hover {
+    background-color: var(--color3);
+}
+.groups_create_type .groups_create_title {
+    line-height: 34px;
+    font-size: 28px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: var(--color1);
+}
+.groups_create_box .groups_create_box_title {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: var(--color1);
+}
+.groups_create_box .groups_create_box_about {
+    line-height: 18px;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: var(--color6);
+    padding-top: 6px;
+}
+.result_list ul li.sectioned.section {
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border-top: 1px solid var(--color3);
+    padding-left: 9px!important;
+}
+.group_settings_advice a {
+    display: block;
+    color: var(--color1);
+    margin: 6px 0px 0px;
+}
+#groups_apps_catalog_promo .apps_group_catalog_promo_header {
+    color: var(--color1);
+    font-size: 20px;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.apps_group_catalog_header .apps_group_catalog_header_desc .apps_group_catalog_header_desc_text {
+    color: var(--color1);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+    margin: 0px 0px 16px;
+}
+.apps_group_catalog_rows .apps_catalog_row {
+    border-bottom: 1px solid var(--color3);
+    padding: 12px 0px 11px;
+}
+.apps_group_catalog_header {
+    display: block;
+    height: 159px;
+    background: url(/images/apps/apps_groups_catalog_header.png) right 0px no-repeat;
+    border-bottom: 1px solid var(--color3);
+}
+.community_apps_catalog_type_tabs.ui_tabs_header {
+    margin: 0px 20px;
+    padding: 0px;
+    background: var(--color5);
+    border-bottom: 1px solid var(--color3);
+}
