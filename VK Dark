@@ -1662,3 +1662,28 @@ hr {
     background: var(--color5);
     border-bottom: 1px solid var(--color3);
 }
+.TemplatesSettings__item {
+    margin: 0 25px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color3);
+}
+.TemplatesSettings div.TemplatesSettings__input, .TemplatesSettings div.TemplatesSettings__textarea {
+    border: 1px solid var(--color3);
+    background: var(--color7);
+    font-size: 13px;
+    line-height: 19px;
+    color: var(--color6);
+    outline: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 9px 5px;
+}
+.Button--secondary {
+    background: var(--color5);
+    color: var(--color2);
+    border-radius: 4px;
+}
+.Button--secondary:not(.Button--disabled):focus, .Button--secondary:not(.Button--disabled):hover {
+    background: var(--color3);
+}
