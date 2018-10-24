@@ -396,3 +396,15 @@ body.dev
     background: var(--color3);
     color: var(--color1);
 }
+.dev_methods_list_row:hover {
+    text-decoration: none;
+    background: var(--color3);
+}
+.dev_methods_list_desc {
+    color: var(--color6);
+    width: 464px;
+    padding: 2px 5px 3px;
+}
+.dev_section_methods_wrap .dev_section_search_input:hover {
+    background-color: var(--color3);
+}
