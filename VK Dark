@@ -1687,3 +1687,83 @@ hr {
 .Button--secondary:not(.Button--disabled):focus, .Button--secondary:not(.Button--disabled):hover {
     background: var(--color3);
 }
+.wall_module .replies_open, .wall_module .wr_header {
+    font-size: 12.5px;
+    display: block;
+    cursor: pointer;
+    color: var(--color2);
+    background: var(--color3);
+    line-height: 32px;
+    border-radius: 2px;
+    text-align: center;
+}
+.wall_module a.wall_reply_greeting {
+    color: var(--color2);
+}
+.ui_gallery_wall_cards .wall_card__title_link {
+    color: var(--color2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    -ms-flex: 1;
+    flex: 1;
+}
+.deep_active .replies .replies_wrap_deep, .deep_active.wall_module .replies .replies_wrap_deep, .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep, .deep_active .wl_replies_block_wrap .replies_wrap_deep {
+    margin-left: 64px;
+    margin-right: 20px;
+    border-top: 1px solid var(--color3);
+}
+.deep_active .replies .reply_field_wrap .reply_field, .deep_active .replies .wl_reply_form_wrap .reply_field_wrap .reply_field, .deep_active.wall_module .replies .reply_field_wrap .reply_field, .deep_active.wall_module .replies .wl_reply_form_wrap .reply_field_wrap .reply_field, .deep_active.wall_module .wl_replies_block_wrap .reply_field_wrap .reply_field, .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field, .deep_active .wl_replies_block_wrap .reply_field_wrap .reply_field, .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_field_wrap .reply_field {
+    background-color: var(--color5);
+    border: 1px solid var(--color3);
+    padding: 9px 12px 10px;
+    min-height: 0;
+    max-height: none;
+    height: auto;
+    border-radius: 6px;
+    line-height: 15px;
+}
+.deep_active .replies .reply_box div.submit_post_field, .deep_active .replies .reply_box div.submit_post_field[contenteditable=true], .deep_active .replies .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active .replies .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .replies .reply_box div.submit_post_field, .deep_active.wall_module .replies .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .replies .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active.wall_module .replies .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .wl_replies_block_wrap .reply_box div.submit_post_field, .deep_active.wall_module .wl_replies_block_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active.wall_module .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active .wl_replies_block_wrap .reply_box div.submit_post_field, .deep_active .wl_replies_block_wrap .reply_box div.submit_post_field[contenteditable=true], .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field, .deep_active .wl_replies_block_wrap .wl_reply_form_wrap .reply_box div.submit_post_field[contenteditable=true] {
+    line-height: 16px;
+    border-color: var(--color3);
+}
+.deep_active .replies .reply_fakebox, .deep_active.wall_module .replies .reply_fakebox, .deep_active.wall_module .wl_replies_block_wrap .reply_fakebox, .deep_active .wl_replies_block_wrap .reply_fakebox {
+    position: relative;
+    background-color: var(--color5);
+    border: 1px solid var(--color3);
+    border-radius: 6px;
+    padding: 7px 12px 9px;
+    line-height: 16px;
+    margin: 0 44px;
+}
+.im_stickers_store_wrap .flat_button.secondary, .im_stickers_store_wrap .flat_button.secondary:active, .im_stickers_store_wrap .flat_button.secondary:hover {
+    background-color: var(--color3);
+    color: rgb(142, 148, 156);
+    cursor: inherit;
+    padding: 7px 16px 8px;
+}.deep_active .post_replies_count, .deep_active.wall_module .post_replies_count {
+    color: #6f7985;
+    font-size: 12.5px;
+    padding: 14px 20px 4px;
+    border-top: 1px solid var(--color3);
+}
+.deep_active .replies .reply .reply_wrap, .deep_active.wall_module .replies .reply .reply_wrap, .deep_active.wall_module .wl_replies_block_wrap .reply .reply_wrap, .deep_active .wl_replies_block_wrap .reply .reply_wrap {
+    margin-left: 44px;
+    border-top: 1px solid var(--color3);
+    padding: 7px 0;
+}
+.deep_active .replies .replies_list:empty, .deep_active.wall_module .replies .replies_list:empty, .deep_active.wall_module .wl_replies_block_wrap .replies_list:empty, .deep_active .wl_replies_block_wrap .replies_list:empty {
+    border-top: 1px solid var(--color3);
+}
+.selector_container td.selector .token_selected .token_inner {
+    background: var(--color1);
+    color: #fff;
+}
+.ads_ad_title.apps_only {
+    display: inline;
+    font-weight: 500;
+    color: var(--color1);
+}
+.deep_active.wl_post .replies .wl_replies_empty, .deep_active.wl_post.wall_module .replies .wl_replies_empty, .deep_active.wl_post.wall_module .wl_replies_block_wrap .wl_replies_empty, .deep_active.wl_post .wl_replies_block_wrap .wl_replies_empty {
+    border-top: 1px solid var(--color3);
+}
