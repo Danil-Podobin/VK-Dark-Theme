@@ -1774,3 +1774,24 @@ hr {
     margin-left: -3px;
     background-color: var(--color2);
 }
+#payments_box_right_col {
+    margin-left: 300px;
+    background-color: var(--color4);
+    display: table-cell;
+    width: 480px;
+    vertical-align: top;
+}
+.payments_getvotes_ps_title {
+    padding: 6px 0 3px;
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.button_cancel {
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    color: var(--color2);
+}
