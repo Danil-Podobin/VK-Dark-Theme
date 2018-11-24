@@ -1795,3 +1795,8 @@ hr {
     height: auto;
     color: var(--color2);
 }
+.appAchievementsHeader__subtitle {
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--color6);
+}
