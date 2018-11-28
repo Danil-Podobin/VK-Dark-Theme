@@ -1,4 +1,4 @@
-@-moz-document domain("vk.com") {
+@-moz-document domain("vk.com") 
     /*
 =================================================*/
 
@@ -1812,4 +1812,42 @@ hr {
     padding: 15px 0;
     border-top: 1px solid var(--color3);
     min-height: 50px;
+}
+.ui_tabs .ui_tab_group_item {
+    display: block;
+    white-space: nowrap;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    color: var(--color1);
+}
+.ui_tab_group_separator {
+    border-top: 1px solid var(--color3);
+    margin: 4px 13px;
+    display: block;
+}
+.ui_tabs
+.ui_tab_group_item:hover {
+    text-decoration: none;
+    background-color: var(--color3);
+}
+.notify_sources_tt_content
+.line_cell:hover {
+    background-color: var(--color3);
+}
+.notify_sources_tt_content .line_cell .info {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: 500;
+    width: 195px;
+    color: var(--color2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 28px;
+    line-height: 28px;
+}
+.notify_sources_tt_content .content:not(:hover) .line_cell.selected {
+    background-color: var(--color5);
 }
