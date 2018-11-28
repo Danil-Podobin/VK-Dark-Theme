@@ -1851,3 +1851,16 @@ hr {
 .notify_sources_tt_content .content:not(:hover) .line_cell.selected {
     background-color: var(--color5);
 }
+.market_goto_cart {
+    float: left;
+    cursor: pointer;
+    color: var(--color1);
+    white-space: nowrap;
+    margin-left: 11px;
+    overflow: hidden;
+    padding: 4px 7px 5px;
+    border-radius: 2px;
+}
+.market_goto_cart:hover {
+    background-color: var(--color3);
+}
