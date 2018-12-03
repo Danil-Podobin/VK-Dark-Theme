@@ -1886,3 +1886,7 @@ hr {
 .top_notify_header .top_notify_header_label .top_notify_header_label_groups_counter.unmuted {
     background: var(--color2);
 }
+.post_top_info_wall_guide, .post_top_info_wall_mention, .post_top_info_wall_podcast, .post_top_info_wall_poll_vote, .post_top_info_wall_reply {
+    padding: 13px 15px 14px;
+    box-shadow: 0 0 0 1px var(--color3), 0 1px 0 0 var(--color3);
+}
