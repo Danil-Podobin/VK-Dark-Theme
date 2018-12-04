@@ -1903,3 +1903,6 @@ hr {
     border-collapse: collapse;
     color: var(--color6);
 }
+.page_actions_item:hover:not(.grey_hoverable) {
+    background-color: var(--color3);
+}
