@@ -1906,3 +1906,7 @@ hr {
 .page_actions_item:hover:not(.grey_hoverable) {
     background-color: var(--color3);
 }
+.deep_active .replies .reply_box_inner_wrap.fixed, .deep_active.wall_module .replies .reply_box_inner_wrap.fixed, .deep_active.wall_module .wl_replies_block_wrap .reply_box_inner_wrap.fixed, .deep_active .wl_replies_block_wrap .reply_box_inner_wrap.fixed {
+    background-color: var(--color3);
+    padding-top: 8px;
+}
