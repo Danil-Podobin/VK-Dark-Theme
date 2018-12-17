@@ -1918,3 +1918,13 @@ hr {
     color: var(--color1);
     margin: 0 18px 8px;
 }
+.survey_block_title, .survey_answer_block_title {
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color2);
+    padding: 5px 0 15px;
+    margin-top: 10px;
+    font-size: 12.5px;
+    line-height: 16px;
+}
