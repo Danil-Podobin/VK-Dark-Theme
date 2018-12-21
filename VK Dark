@@ -1946,3 +1946,7 @@ hr {
     color: var(--color6);
     margin: 10px 0;
 }
+.post_top_info_ads_group_members {
+    padding: 7px 10px;
+    box-shadow: 0 0 0 1px var(--color3), 0 1px 0 0 var(--color3);
+}
