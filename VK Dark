@@ -1983,3 +1983,21 @@ hr {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.deep_active .post_replies_header .post_replies_reorder, .deep_active.wall_module .post_replies_header .post_replies_reorder {
+    cursor: pointer;
+    color: var(--color2);
+    padding-right: 13px;
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or…8%201154.5%20945.2%201152.2Z%22%20fill%3D%22%2392A0B1%22%2F%3E%3C%2Fsvg%3E) no-repeat right 7px;
+}
+.deep_active .post_replies_header, .deep_active.wall_module .post_replies_header {
+    padding: 14px 20px 4px;
+    border-top: 1px solid var(--color3);
+    font-size: 12.5px;
+}
+.eltt .eltt_fancy_action:hover {
+    background-color: var(--color3);
+}
+.eltt .eltt_fancy_action {
+    padding: 8px 0 9px 12px;
+    color: var(--color6);
+}
