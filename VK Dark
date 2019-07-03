@@ -2001,3 +2001,33 @@ hr {
     padding: 8px 0 9px 12px;
     color: var(--color6);
 }
+.market_row_in_cart {
+    background: var(--color3);
+}
+.market_contact_btn:not(:disabled):focus, .market_contact_btn:not(:disabled):hover {
+    background: var(--color2);
+}
+.media_link__label {
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px 15px 11px;
+    background: var(--color5);
+    border: 1px solid rgba(0,20,51,.12);
+    border-top: 0;
+    border-radius: 0 0 2px 2px;
+}
+.media_link__title {
+    max-height: 42px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--color6);
+    margin: 0 0 7px;
+}
