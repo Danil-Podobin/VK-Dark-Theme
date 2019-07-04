@@ -2036,3 +2036,6 @@ hr {
     margin-top: 15px;
     padding-top: 15px;
 }
+.market_order_row:hover {
+    background: var(--color3);
+}
